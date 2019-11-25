@@ -1,14 +1,65 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const Button = styled.button`
-  background-color: ${props =>
-    props.delete ? 'red' : props.update ? '#ffc107' : 'green'};
-  font-size: 1em;
-  color: ${props => (props.update ? 'black' : 'white')};
-  margin: 1em;
-  padding: 0.25em 1em;
-  border-color: transparent;
-  border-radius: 3px;
+    margin: .10em;
+    border-color: transparent;
+    border-radius: 14px;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .55rem;
+    font-weight: 400;
+
+  ${props =>
+    props.large &&
+    css`
+     margin: .10em;
+     border-color: transparent;
+     border-radius: 14px;
+     border: 1px solid transparent;
+     padding: .475rem .85rem;
+     font-size: 2rem;
+     line-height: 1.5;
+     border-radius: .55rem;
+     font-weight: 500;
+    `};
+  
+
+
+  ${props =>
+    props.update &&
+    css`
+     background: yellow ;
+     color: black;
+    `};
+
+  ${props =>
+    props.delete &&
+    css`
+     background: red ;
+     color: white;
+        
+    `};
+  ${props =>
+    props.dark &&
+    css`
+     background: black ;
+     color: white;
+    `};
+  ${props =>
+    props.light &&
+    css`
+     background: white ;
+     color: black;
+    `};
+  ${props =>
+    props.submit &&
+    css`
+     background: blue ;
+     color: white;
+    `};
 `;
+
 
 export default Button;
