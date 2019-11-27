@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Button from './components/Button';
 
@@ -7,9 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Efsane button
+        Button 
         </p>
         <a
           className="App-link"
@@ -19,7 +17,21 @@ function App() {
         >
           Learn React
         </a>
-        <Button delete>Asd</Button>
+       <div>
+        <Button submit >Submit </Button>
+        <Button update >Update </Button>
+        <Button delete >Delete </Button>
+        <Button dark >  Dark </Button>
+        <Button light > Light </Button>
+        </div>
+        <div>
+        <Button submit large >Submit </Button>
+        <Button update large>Update </Button>
+        <Button delete large >Delete </Button>
+        <Button dark large >  Dark </Button>
+        <Button light large > Light </Button>
+        </div>
+
       </header>
     </div>
   );
