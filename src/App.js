@@ -3,37 +3,35 @@ import './App.css';
 import Col from './components/Col';
 import Row from './components/Row';
 import Container from './components/Container';
+import Button from './components/Button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-        Button 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-       <div>
+    <Container>
+      <Row>
+        <h1>Buttons</h1>
+      </Row>
+      <Row>
+        <Col md="5">
         <Button submit >Submit </Button>
         <Button update >Update </Button>
         <Button delete >Delete </Button>
         <Button dark >  Dark </Button>
         <Button light > Light </Button>
-        </div>
-        <div>
+        </Col>
+      </Row>
+      <Row>
+        <Col md="7">
         <Button submit large >Submit </Button>
         <Button update large>Update </Button>
         <Button delete large >Delete </Button>
         <Button dark large >  Dark </Button>
         <Button light large > Light </Button>
-        </div>
-      <Container>
+        </Col>
+      </Row>
+      <Row>
+        <h1>Col Grid System</h1>
+      </Row>
       <Row>
         <Col md="1">1</Col>
         <Col md="1">1</Col>
@@ -60,10 +58,7 @@ function App() {
       <Row>
         <Col md="12">12</Col>
       </Row>
-      </Container>
-
-      </header>
-    </div>
+    </Container>
   );
 }
 

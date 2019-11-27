@@ -6,15 +6,16 @@ const Container = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-color:#f8f9fa;
 
   @media (min-width: 768px) {
-    width: 750px;
+    max-width: 720px;
   }
   @media (min-width: 992px) {
-    width: 970px;
+    max-width: 960px;
   }
   @media (min-width: 1200px) {
-    width: 1170px;
+    max-width: 1140px;
   }
 
   ${props =>

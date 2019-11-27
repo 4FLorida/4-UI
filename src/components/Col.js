@@ -11,7 +11,6 @@ const Col = styled.div`
   position: relative;
   width: 100%;
   margin-bottom:5px;
-  text-align:center;
   padding-left:15px;
   padding-right:15px;
   ${({ xs }) => (xs ? getWidth(xs) : 'width: 100%')};
