@@ -60,8 +60,15 @@ function App() {
         <Col md="12">12</Col>
       </Row>
       <Row>
-        <Col md="12">
+        <h1>Text Inputs</h1>
+      </Row>
+      <Row>
+        <Col md="3">
+          <h3>Text</h3>
           <TextInput></TextInput>
+        </Col>
+        <Col md="3">
+          <h3>Password</h3>
           <TextInput type="password"></TextInput>
         </Col>
       </Row>
