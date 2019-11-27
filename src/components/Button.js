@@ -10,7 +10,6 @@ const Button = styled.button`
     line-height: 1.5;
     border-radius: .55rem;
     font-weight: 400;
-
   ${props =>
     props.large &&
     css`
@@ -24,16 +23,12 @@ const Button = styled.button`
      border-radius: .55rem;
      font-weight: 500;
     `};
-  
-
-
   ${props =>
     props.update &&
     css`
      background: yellow ;
      color: black;
     `};
-
   ${props =>
     props.delete &&
     css`
@@ -60,6 +55,4 @@ const Button = styled.button`
      color: white;
     `};
 `;
-
-
 export default Button;
