@@ -4,7 +4,7 @@ import Col from './components/Col';
 import Row from './components/Row';
 import Container from './components/Container';
 import Button from './components/Button';
-import TextInput from './components/TextInput'
+import TextInput from './components/TextInput';
 
 function App() {
   return (
@@ -14,20 +14,32 @@ function App() {
       </Row>
       <Row>
         <Col md="5">
-        <Button submit >Submit </Button>
-        <Button update >Update </Button>
-        <Button delete >Delete </Button>
-        <Button dark >  Dark </Button>
-        <Button light > Light </Button>
+          <Button submit>Submit </Button>
+          <Button update>Update </Button>
+          <Button delete>Delete </Button>
+          <Button dark> Dark </Button>
+          <Button light> Light </Button>
         </Col>
       </Row>
       <Row>
         <Col md="7">
-        <Button submit large >Submit </Button>
-        <Button update large>Update </Button>
-        <Button delete large >Delete </Button>
-        <Button dark large >  Dark </Button>
-        <Button light large > Light </Button>
+          <Button submit large>
+            Submit{' '}
+          </Button>
+          <Button update large>
+            Update{' '}
+          </Button>
+          <Button delete large>
+            Delete{' '}
+          </Button>
+          <Button dark large>
+            {' '}
+            Dark{' '}
+          </Button>
+          <Button light large>
+            {' '}
+            Light{' '}
+          </Button>
         </Col>
       </Row>
       <Row>

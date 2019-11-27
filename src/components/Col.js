@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 function getWidth(span) {
   if (!span) return;
@@ -10,9 +10,9 @@ const Col = styled.div`
   box-sizing: border-box;
   position: relative;
   width: 100%;
-  margin-bottom:5px;
-  padding-left:15px;
-  padding-right:15px;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   ${({ xs }) => (xs ? getWidth(xs) : 'width: 100%')};
 
   @media only screen and (min-width: 768px) {
