@@ -23,7 +23,6 @@ const Button = styled.button`
      border-radius: .55rem;
      font-weight: 500;
     `};
-  
   ${props =>
     props.update &&
     css`
@@ -56,6 +55,4 @@ const Button = styled.button`
      color: white;
     `};
 `;
-
-
 export default Button;
