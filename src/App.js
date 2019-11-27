@@ -4,6 +4,7 @@ import Col from './components/Col';
 import Row from './components/Row';
 import Container from './components/Container';
 import Button from './components/Button';
+import TextInput from './components/TextInput'
 
 function App() {
   return (
@@ -57,6 +58,12 @@ function App() {
       </Row>
       <Row>
         <Col md="12">12</Col>
+      </Row>
+      <Row>
+        <Col md="12">
+          <TextInput></TextInput>
+          <TextInput type="password"></TextInput>
+        </Col>
       </Row>
     </Container>
   );
