@@ -1,26 +1,32 @@
 import styled, { css } from 'styled-components';
 
 const Container = styled.div`
-  width: 100%
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color:#f8f9fa;
+  background-color: #f8f9fa;
 
+  @media (min-width: 480px) {
+    width: auto;
+  }
+  @media (min-width: 576px) {
+    width: 540px;
+  }
   @media (min-width: 768px) {
-    max-width: 720px;
+    width: 720px;
   }
   @media (min-width: 992px) {
-    max-width: 960px;
+    width: 960px;
   }
   @media (min-width: 1200px) {
-    max-width: 1140px;
+    width: 1140px;
   }
 
   ${props =>
     props.fluid &&
     css`
+      box-sizing: border-box;
       width: 100% !important;
     `}
 `;

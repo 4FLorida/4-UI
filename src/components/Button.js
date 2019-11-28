@@ -10,48 +10,44 @@ const Button = styled.button`
   line-height: 1.5;
   border-radius: 0.55rem;
   font-weight: 400;
+  color: #ffffff;
+  :focus {
+    outline: none;
+  }
+
   ${props =>
     props.large &&
     css`
-      margin: 0.1em;
-      border-color: transparent;
-      border-radius: 14px;
-      border: 1px solid transparent;
       padding: 0.475rem 0.85rem;
       font-size: 2rem;
-      line-height: 1.5;
-      border-radius: 0.55rem;
       font-weight: 500;
     `};
   ${props =>
     props.update &&
     css`
-      background: yellow;
-      color: black;
+      background: #ffc107;
+      color: #212529;
     `};
   ${props =>
     props.delete &&
     css`
-      background: red;
-      color: white;
+      background: #dc3545;
     `};
   ${props =>
     props.dark &&
     css`
-      background: black;
-      color: white;
+      background: #343a40;
     `};
   ${props =>
     props.light &&
     css`
-      background: white;
-      color: black;
+      background: #f8f9fa;
+      color: #212529;
     `};
   ${props =>
     props.submit &&
     css`
-      background: blue;
-      color: white;
+      background: #007bff;
     `};
 `;
 export default Button;

@@ -8,7 +8,8 @@ import TextInput from './components/TextInput';
 
 function App() {
   return (
-    <Container>
+    <Container fluid>
+      <h1>Container fluid</h1>
       <Row>
         <h1>Buttons</h1>
       </Row>

@@ -9,10 +9,11 @@ function getWidth(span) {
 const Col = styled.div`
   box-sizing: border-box;
   position: relative;
-  width: 100%;
+  background-color:rgba(86,61,124,.15);
   margin-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding:15px;
+  border-left:1px solid;
+
   ${({ xs }) => (xs ? getWidth(xs) : 'width: 100%')};
 
   @media only screen and (min-width: 768px) {
