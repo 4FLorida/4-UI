@@ -8,8 +8,7 @@ import TextInput from './components/TextInput';
 
 function App() {
   return (
-    <Container fluid>
-      <h1>Container fluid</h1>
+    <Container >
       <Row>
         <h1>Buttons</h1>
       </Row>
@@ -85,6 +84,7 @@ function App() {
           <TextInput type="password"></TextInput>
         </Col>
       </Row>
+
     </Container>
   );
 }

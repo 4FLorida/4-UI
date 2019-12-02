@@ -5,7 +5,7 @@ const Container = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  background-color: #f8f9fa;
+  text-align:center;
 
   @media (min-width: 480px) {
     width: auto;
