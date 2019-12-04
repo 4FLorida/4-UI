@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Alert from './components/Alert';
 import Col from './components/Col';
 import Row from './components/Row';
 import Container from './components/Container';
@@ -10,6 +11,18 @@ function App() {
   return (
     <Container fluid>
       <h1>Container fluid</h1>
+      <Row>
+        <h1>Alerts</h1>
+      </Row>
+      <Row>
+        <Col md="5">
+         <Alert blue >This is an alert!!check it out! </Alert>
+         <Alert yellow >This is an alert!!check it out!</Alert>
+         <Alert red >This is an alert!!check it out! </Alert>
+         <Alert dark >  This is an alert!!check it out! </Alert>
+         <Alert light > This is an alert!!check it out! </Alert>
+        </Col>
+      </Row>
       <Row>
         <h1>Buttons</h1>
       </Row>
