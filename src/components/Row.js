@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from '../../node_modules/styled-components';
 
 const Row = styled.div`
   position: relative;

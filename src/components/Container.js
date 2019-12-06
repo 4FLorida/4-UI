@@ -1,4 +1,5 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from '../../node_modules/styled-components';
+
 
 const Container = styled.div`
   padding-right: 15px;

@@ -1,4 +1,5 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from '../../node_modules/styled-components';
+
 
 const Button = styled.button`
   margin: 0.1em;
