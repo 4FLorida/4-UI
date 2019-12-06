@@ -83,16 +83,16 @@ function App() {
           <TextInput type="password"></TextInput>
         </Col>
       </Row>
-      <Row>
+      <Row center>
         <h1>Alerts</h1>
       </Row>
       <Row>
-        <Col md="5">
-         <Alert blue >This is an alert!!check it out! </Alert>
-         <Alert yellow >This is an alert!!check it out!</Alert>
-         <Alert red >This is an alert!!check it out! </Alert>
-         <Alert dark >  This is an alert!!check it out! </Alert>
-         <Alert light > This is an alert!!check it out! </Alert>
+        <Col>
+          <Alert blue>This is an alert!!check it out! </Alert>
+          <Alert yellow>This is an alert!!check it out!</Alert>
+          <Alert red>This is an alert!!check it out! </Alert>
+          <Alert dark> This is an alert!!check it out! </Alert>
+          <Alert light> This is an alert!!check it out! </Alert>
         </Col>
       </Row>
     </Container>
