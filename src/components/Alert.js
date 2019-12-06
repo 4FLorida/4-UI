@@ -18,22 +18,22 @@ ${props =>
   props.blue &&
   css`
   color: #004085;
-  background-color: #cce5ff;
+  background-color: #5682b0;
   border-color: #b8daff;
   `};
 
 ${props =>
   props.yellow &&
   css`
-   background: yellow ;
-   color: black;
+   background: #ffd500 ;
+   color: #000000;
   `};
 
 ${props =>
   props.red &&
   css`
   color: #eae2e2;
-  background-color: #f13142;
+  background-color: #cc0012;
   border-color: #f5c6cb;
       
   `};
@@ -46,7 +46,7 @@ ${props =>
 ${props =>
   props.light &&
   css`
-   color: #343a40;
+   color: #191a1c;
    background: #f8f9fa;
   `};
 
