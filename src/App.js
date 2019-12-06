@@ -8,83 +8,80 @@ import TextInput from './components/TextInput';
 
 function App() {
   return (
-    <Container >
-      <Row>
+    <Container center>
+      <Row center>
         <h1>Buttons</h1>
       </Row>
       <Row>
-        <Col md="5">
-          <Button submit>Submit </Button>
-          <Button update>Update </Button>
-          <Button delete>Delete </Button>
-          <Button dark> Dark </Button>
-          <Button light> Light </Button>
+        <Col>
+          <Button submit>Submit</Button>
+          <Button update>Update</Button>
+          <Button delete>Delete</Button>
+          <Button dark> Dark</Button>
+          <Button light>Light</Button>
         </Col>
       </Row>
       <Row>
-        <Col md="7">
+        <Col>
           <Button submit large>
-            Submit{' '}
+            Submit
           </Button>
           <Button update large>
-            Update{' '}
+            Update
           </Button>
           <Button delete large>
-            Delete{' '}
+            Delete
           </Button>
           <Button dark large>
-            {' '}
-            Dark{' '}
+            Dark
           </Button>
           <Button light large>
-            {' '}
-            Light{' '}
+            Light
           </Button>
         </Col>
       </Row>
-      <Row>
+      <Row center>
         <h1>Col Grid System</h1>
       </Row>
       <Row>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
-        <Col md="1">1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
+        <Col>1</Col>
       </Row>
       <Row>
-        <Col md="4">4</Col>
-        <Col md="4">4</Col>
-        <Col md="4">4</Col>
+        <Col>4</Col>
+        <Col>4</Col>
+        <Col>4</Col>
       </Row>
       <Row>
-        <Col md="4">4</Col>
-        <Col md="8">8</Col>
+        <Col>4</Col>
+        <Col>8</Col>
       </Row>
       <Row>
-        <Col md="12">12</Col>
+        <Col>12</Col>
       </Row>
-      <Row>
+      <Row center>
         <h1>Text Inputs</h1>
       </Row>
       <Row>
-        <Col md="3">
+        <Col>
           <h3>Text</h3>
           <TextInput></TextInput>
         </Col>
-        <Col md="3">
+        <Col>
           <h3>Password</h3>
           <TextInput type="password"></TextInput>
         </Col>
       </Row>
-
     </Container>
   );
 }

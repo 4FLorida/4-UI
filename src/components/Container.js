@@ -5,7 +5,8 @@ const Container = styled.div`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  text-align:center;
+  position: relative;
+  display: block;
 
   @media (min-width: 480px) {
     width: auto;
@@ -23,11 +24,19 @@ const Container = styled.div`
     width: 1140px;
   }
 
+  // * Props *
+
   ${props =>
     props.fluid &&
     css`
       box-sizing: border-box;
-      width: 100% !important;
+      min-width: 100%;
+    `}
+
+  ${props =>
+    props.center &&
+    css`
+      text-align: center;
     `}
 `;
 

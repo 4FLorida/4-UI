@@ -11,9 +11,15 @@ const Button = styled.button`
   border-radius: 0.55rem;
   font-weight: 400;
   color: #ffffff;
+  opacity: 0.9;
   :focus {
     outline: none;
   }
+  :hover {
+    opacity: 1;
+  }
+
+  // * Props *
 
   ${props =>
     props.large &&
@@ -22,32 +28,38 @@ const Button = styled.button`
       font-size: 2rem;
       font-weight: 500;
     `};
+
   ${props =>
     props.update &&
     css`
       background: #ffc107;
       color: #212529;
     `};
+
   ${props =>
     props.delete &&
     css`
       background: #dc3545;
     `};
+
   ${props =>
     props.dark &&
     css`
       background: #343a40;
     `};
+
   ${props =>
     props.light &&
     css`
       background: #f8f9fa;
       color: #212529;
     `};
+
   ${props =>
     props.submit &&
     css`
       background: #007bff;
     `};
 `;
+
 export default Button;
