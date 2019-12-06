@@ -17,7 +17,7 @@ line-height: 1.5;
 ${props =>
   props.blue &&
   css`
-  color: #004085;
+  color: #f0f6fc;
   background-color: #5682b0;
   border-color: #b8daff;
   `};
