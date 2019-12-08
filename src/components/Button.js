@@ -13,6 +13,7 @@ const Button = styled.button`
   font-weight: 400;
   color: #ffffff;
   opacity: 0.9;
+  cursor: pointer;
   :focus {
     outline: none;
   }
