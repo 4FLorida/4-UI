@@ -80,7 +80,7 @@ function App() {
         </Col>
         <Col>
           <h3>Password</h3>
-          <TextInput type="password"></TextInput>
+          <TextInput  type="password"></TextInput>
         </Col>
       </Row>
       <Row center>

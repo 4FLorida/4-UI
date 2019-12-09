@@ -6,7 +6,6 @@ padding: .75rem 1.25rem;
 margin-bottom: 2rem;
 margin-top: 2rem;
 border: 1px solid transparent;
-min-width:540px;
 width:auto;
 border-radius: .25rem;
 font-size: 1rem;
