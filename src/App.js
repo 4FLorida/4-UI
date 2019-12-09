@@ -6,6 +6,8 @@ import Row from './components/Row';
 import Container from './components/Container';
 import Button from './components/Button';
 import TextInput from './components/TextInput';
+import NavItem from './components/NavItem';
+import Nav from './components/Nav';
 
 function App() {
   return (
@@ -80,7 +82,7 @@ function App() {
         </Col>
         <Col>
           <h3>Password</h3>
-          <TextInput  type="password"></TextInput>
+          <TextInput type="password"></TextInput>
         </Col>
       </Row>
       <Row center>
@@ -93,6 +95,19 @@ function App() {
           <Alert red>This is an alert!!check it out! </Alert>
           <Alert dark> This is an alert!!check it out! </Alert>
           <Alert light> This is an alert!!check it out! </Alert>
+        </Col>
+      </Row>
+      <Row center>
+        <h1>Nav</h1>
+      </Row>
+      <Row>
+        <Col>
+          <Nav>
+            <NavItem>Home</NavItem>
+            <NavItem>About</NavItem>
+            <NavItem disable>Disable</NavItem>
+            <NavItem right>4FLorida</NavItem>
+          </Nav>
         </Col>
       </Row>
     </Container>
