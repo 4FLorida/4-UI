@@ -1,4 +1,4 @@
-import styled, { css } from '../../node_modules/styled-components';
+import styled from 'styled-components';
 
 function getWidth(span) {
   if (!span) return;
